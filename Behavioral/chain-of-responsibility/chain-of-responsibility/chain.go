@@ -47,7 +47,7 @@ func (r *ProjectManager) HandleFeeRequest(name string, money int) bool {
 		fmt.Printf("Project manager permit %s %d fee request\n", name, money)
 		return true
 	}
-	fmt.Printf("Project manager don't permit %s %d free request\n", name, money)
+	fmt.Printf("Project manager don't permit %s %d fee request\n", name, money)
 	return false
 }
 
