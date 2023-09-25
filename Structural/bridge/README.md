@@ -2,6 +2,7 @@
 
 ---
 
+**Decouples an interface from its implementation so that the two can vary independently**
 
 桥接模式分离抽象部分和实现部分。使得两部分独立扩展。
 
